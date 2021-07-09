@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="2columns-left"  xsi:noNamespaceSchemaLocation="urn:magento:framework:View/PageLayout/etc/layouts.xsd">
+    <body>
+        <referenceContainer name="content">
+            <block  name="sebweo_helloworld.layout.Hello" 
+                    class="Magento\Framework\View\Element\Template"
+                    template="Sebweo_HelloWorld::hello_world.phtml"/>   
+        </referenceContainer>
+    </body>
+</page>
